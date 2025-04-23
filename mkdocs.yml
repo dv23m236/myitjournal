@@ -1,124 +1,36 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
----
-# Project information
+# Website Information
 site_name: "My IT Journal"
 site_author: "Davide Verardo"
-site_description: >-
-  Collected tips and guides whenever I found it worth or needed to keep the
-  insights to help my brain or to give guidance to our apprentices.
+edit_uri: "edit/main/docs"
 
 # Repository
 repo_name: dv23m236/myitjournal
 repo_url: https://github.com/dv23m236/myitjournal
-edit_uri: "edit/main/docs"
-
 
 # Configuration
 theme:
+  features: 
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # - navigation.sections
+    # - navigation.expand
   name: material
   icon:
-    logo: fontawesome/solid/chalkboard-user
-  language: en
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: orange
-      accent: orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: amber
-      accent: amber
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  features:
-    - content.code.annotate
-    - content.tabs.link
-    - content.tooltips
-    - navigation.expand
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
-    - search.highlight
-    - search.suggest
-    - toc.follow
-
-plugins:
-  - git-revision-date-localized
-  - search
-
-markdown_extensions:
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - pymdownx.betterem
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.keys
-  - pymdownx.snippets:
-      auto_append:
-        - includes/abbreviations.md
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - toc:
-      toc_depth: 3
-
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/mrolli/
-
-extra_css:
-  - stylesheets/extra.css
-
-# Page tree
-nav:
-  - "Home": index.md
-  - "Courses":
-      - "Tools": courses/tools.md
-      - "My IT Journal":
-          - "Work instructions": courses/myitjournal.md
-          - "WB_KW32": wb_demo.md
-      - "Webapp Stack": courses/webappstack.md
-      - "The World in SQL": courses/world_in_sql.md
-  - "Guides":
-      - "Ansible": guides/ansible.md
-      - "Certificates with OpenSSL": guides/certificates.md
-      - "Homebrew": guides/homebrew.md
-      - "macOS FAQs": guides/macos_faq.md
-      - "Mnemonics": guides/mnemonics.md
-      - "Miniconda": guides/miniconda.md
-      - "MkDocs": guides/mkdocs.md
-      - "Neovim": guides/neovim.md
-      - "Shell Scripting":
-          - "Bash Heredoc": guides/scripting/bash_heredoc.md
-          - "Sed": guides/scripting/sed.md
-      - "tmux": guides/tmux.md
-      - "Vagrant": guides/vagrant.md
-      - "Vim": guides/vim.md
-      - "Zsh": guides/zsh.md
-      - "Miscellaneous": guides/misc.md
-  - "Git/GitHub":
-      - "Git":
-          - "Learning Git": gitandco/git.md
-          - "Git Workflows": gitandco/gitworkflows.md
-          - "Git Recipes": gitandco/gitrecipes.md
-      - "Github": gitandco/github.md
-  - "MdCheat": mdcheat.md
-  - About Me: about.md
+    repo: fontawesome/brands/git-alt 
+    edit: material/pencil
+  palette: 
+  - scheme: default
+    primary: black
+    accent: black
+    toggle:
+      icon: material/weather-night      
+      name: Switch to dark mode
+  - scheme: slate
+    primary: white
+    accent: white
+    toggle:
+      icon: material/weather-sunny      
+      name: Switch to light mode
