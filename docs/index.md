@@ -1,7 +1,14 @@
 ---
 icon: lucide/rocket
+title: Home
 ---
 
+# My IT Journal 🚀
+
+Welcome! This site is my personal technical knowledge base. 
+
+
+---
 # Get started
 
 For full documentation visit [zensical.org](https://zensical.org/docs/).

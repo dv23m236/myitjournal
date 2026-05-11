@@ -1,7 +1,7 @@
 [project]
 site_name = "My IT Journal"
 site_url = "https://dv23m236.github.io/myitjournal/"
-site_author = "Your Name"
+site_author = "Davide"
 copyright = 'Copyright &copy; 2026 Your Name<br />Licensed under CC BY-SA 4.0'
 
 # Repository Shortcut
@@ -13,31 +13,47 @@ nav = [
     { "Home" = "index.md" },
     { "Guides" = [
         { "Zensical" = "guides/zensical.md" },
-        { "Git & GitHub" = "guides/git.md" },
+        { "Git & GitHub" = [
+            { "Basics" = "guides/git-basics.md" },
+            { "Advanced Recipes" = "guides/git-recipes.md" }
+        ] },
     ] },
-    { "About Me" = "about.md" },
+    { "Reference" = "reference.md" },
+    { "About" = "about.md" }
 ]
+
+[project.markdown_extensions.toc]
+toc_depth = 3  # This tells it to show H2 and H3 headers
+
+
 
 [project.theme]
 name = "material"
-variant = "classic"
 features = [
-    "navigation.tabs",
-    "navigation.top",
-    "search.highlight",
+    "navigation.tabs",         # Top level menu as tabs
+    "navigation.sections",     # Groups navigation into sections
+    "navigation.expand",       # Left sidebar starts expanded
+    "navigation.top",          # The "Back to Top" button
+    "navigation.tracking",     # Highlights where you are as you scroll
+    "navigation.indexes",      # Allows clicking a folder name to open a page
+    "search.suggest",          # Better search bar
+    "search.highlight",        # Highlights search results
 ]
+
+[project.theme.icon]
+logo = "material/home"
 
 # Color Toggles (Light/Dark mode)
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-primary = "indigo"
+primary = "blue"
 toggle.icon = "material/weather-night"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "indigo"
+primary = "purple"
 toggle.icon = "material/weather-sunny"
 toggle.name = "Switch to light mode"
