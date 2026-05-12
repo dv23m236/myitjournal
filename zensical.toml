@@ -2,7 +2,7 @@
 site_name = "My IT Journal"
 site_url = "https://dv23m236.github.io/myitjournal/"
 site_author = "Davide"
-copyright = 'Copyright &copy; 2026 Your Name<br />Licensed under CC BY-SA 4.0'
+copyright = 'Copyright &copy; 2026 Davide<br />Licensed under CC BY-SA 4.0'
 
 # Repository Shortcut
 repo_name = "dv23m236/myitjournal"
