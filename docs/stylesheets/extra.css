@@ -1,0 +1,49 @@
+/* --- 1. GLOBAL & FONT SETTINGS --- */
+.md-tabs__link, 
+.md-nav__link {
+    font-weight: 700; /* Makes all navigation "fat" */
+}
+
+/* --- 2. DARK MODE (SLATE) COLORS --- */
+[data-md-color-scheme="slate"] {
+    /* Changes the primary purple engine to Pink */
+    --md-primary-fg-color: #ff69b4;
+    --md-primary-fg-color--transparent: rgba(255, 105, 180, 0.1);
+    
+    /* Changes links inside your text to Pink */
+    --md-typeset-a-color: #ff69b4;
+}
+
+/* --- 3. HEADER & TOP NAV --- */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #000000 !important; /* Pure black background */
+}
+
+/* Top Tabs: Pink when active, clicked, or hovered */
+[data-md-color-scheme="slate"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="slate"] .md-tabs__link:hover,
+[data-md-color-scheme="slate"] .md-tabs__link:focus {
+    color: #ff69b4 !important;
+    opacity: 1;
+}
+
+/* --- 4. SIDEBARS (LEFT & RIGHT TOC) --- */
+/* Target all sidebar links on hover/focus/active */
+[data-md-color-scheme="slate"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-nav__link:focus,
+[data-md-color-scheme="slate"] .md-nav__link--active {
+    color: #ff69b4 !important;
+}
+
+/* The vertical line next to the "On this page" (TOC) */
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
+    border-left: 2px solid #ff69b4 !important;
+    font-weight: 800;
+}
+
+/* --- 5. THE "BLUE/PURPLE" KILLER --- */
+/* This forces the 'tap' highlight on mobile and 'focus' on desktop to be pink */
+[data-md-color-scheme="slate"] * {
+    --md-accent-fg-color: #ff69b4;
+    -webkit-tap-highlight-color: rgba(255, 105, 180, 0.3);
+}

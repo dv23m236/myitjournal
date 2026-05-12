@@ -8,6 +8,8 @@ copyright = 'Copyright &copy; 2026 Your Name<br />Licensed under CC BY-SA 4.0'
 repo_name = "dv23m236/myitjournal"
 repo_url = "https://github.com/dv23m236/myitjournal"
 
+extra_css = ["stylesheets/extra.css"]
+
 # The Navigation (Must match your actual folder/file names!)
 nav = [
     { "Home" = "index.md" },
@@ -19,11 +21,15 @@ nav = [
         ] },
     ] },
     { "Reference" = "reference.md" },
+
+    { "Weekly Journal" = [
+        { "Weekly template" = "weeklys/template.md" },
+        { "Week 18" = "weeklys/week-18.md" },
+        { "Week 17" = "weeklys/week-17.md" },
+    ]},
     { "About Me" = "about.md" }
 ]
 
-[project.markdown_extensions.toc]
-toc_depth = 3
 
 [project.markdown_extensions]
 admonition = {}
@@ -32,20 +38,32 @@ md_in_html = {}
 
 
 [project.theme]
+variant = "modern"
 name = "material"
 features = [
     "navigation.tabs",         # Top level menu as tabs
     "navigation.sections",     # Groups navigation into sections
     "navigation.expand",       # Left sidebar starts expanded
     "navigation.top",          # The "Back to Top" button
+    "navigation.tabs.sticky",  # Keeps that menu fixed while you scroll
+    "toc.follow",              # Right sidebar highlights as you scroll
     "navigation.tracking",     # Highlights where you are as you scroll
     "navigation.indexes",      # Allows clicking a folder name to open a page
     "search.suggest",          # Better search bar
     "search.highlight",        # Highlights search results
 ]
 
+[project.markdown_extensions.toc]
+permalink = true
+toc_depth = 3
+
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+
+
 [project.theme.icon]
 logo = "material/home"
+
 
 # Color Toggles (Light/Dark mode)
 [[project.theme.palette]]
@@ -58,6 +76,6 @@ toggle.name = "Switch to dark mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "purple"
+primary = "Hotpink"
 toggle.icon = "material/weather-sunny"
 toggle.name = "Switch to light mode"
