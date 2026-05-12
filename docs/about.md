@@ -1,6 +1,6 @@
 # About Me
 
-!!! info inline end ""
-    ![Davide](assets/me.jpg){ style="border-radius: 50%; width: 150px;" }
+!!! quote inline end ""
+    ![Davide](assets/me.jpg){ style="border-radius: 50%; width: 200px;" }
 
 Hi! I'm Davide. I'm an IT student. I am currently building my IT journal to track my progress and share what I learn.
