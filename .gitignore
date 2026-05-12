@@ -1,0 +1,10 @@
+# Zensical/MkDocs build folder
+site/
+
+# macOS system files
+.DS_Store
+
+# Python environment files (if you created one)
+env/
+venv/
+.venv/
