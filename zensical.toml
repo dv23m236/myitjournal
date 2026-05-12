@@ -19,12 +19,16 @@ nav = [
         ] },
     ] },
     { "Reference" = "reference.md" },
-    { "About" = "about.md" }
+    { "About Me" = "about.md" }
 ]
 
 [project.markdown_extensions.toc]
-toc_depth = 3  # This tells it to show H2 and H3 headers
+toc_depth = 3
 
+[project.markdown_extensions]
+admonition = {}
+attr_list = {}
+md_in_html = {}
 
 
 [project.theme]
