@@ -1,5 +1,7 @@
 # About Me
 
-![Davide](./assets/me.jpg){ .off-glow style="border-radius: 50%; width: 150px; display: block; margin: 0 auto;" }
+!!! info inline end ""
+    ![Davide](assets/me.jpg)
 
-<p align="center">Hi! I'm Davide. I'm an IT student and documentation enthusiast.</p>
+Hi! I'm Davide. I'm an IT student. I am currently 
+building my IT journal to track my progress and share what I learn.
