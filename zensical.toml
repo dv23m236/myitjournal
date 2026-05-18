@@ -35,7 +35,29 @@ nav = [
 admonition = {}
 attr_list = {}
 md_in_html = {}
+footnotes = {}
+sane_lists = {}
 
+[project.markdown_extensions.pymdownx.details] # Enables the ??? info "Title" dropdowns
+[project.markdown_extensions.pymdownx.highlight] # Better code blocks and text highlights
+[project.markdown_extensions.pymdownx.inlinehilite] # Inline code highlight support
+[project.markdown_extensions.pymdownx.keys]      # Enables keyboard key styling e.g., ++ctrl+alt+del++
+[project.markdown_extensions.pymdownx.snippets]  # Allows pulling code snippets from other files
+[project.markdown_extensions.pymdownx.magiclink] # Auto-links bare URLs or emails
+
+[project.markdown_extensions.pymdownx.mark]          # Fixes: ==marked text==
+[project.markdown_extensions.pymdownx.tilde]         # Fixes: ~~strikethrough~~ and H~2~O subscripts
+[project.markdown_extensions.pymdownx.caret]         # Fixes: ^^underline^^ and A^T^A superscripts
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.pymdownx.tasklist]      # Fixes: Turns [x] into real checkboxes
+custom_checkbox = true                               # Makes them look native and clean
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
 
 [project.theme]
 variant = "modern"
@@ -51,6 +73,7 @@ features = [
     "navigation.indexes",      # Allows clicking a folder name to open a page
     "search.suggest",          # Better search bar
     "search.highlight",        # Highlights search results
+    "content.tooltips"
 ]
 
 [project.markdown_extensions.toc]
