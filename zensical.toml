@@ -60,7 +60,6 @@ toc_depth = 3
 [project.markdown_extensions.pymdownx.betterem]
 smart_enable = "all"
 
-
 [project.theme.icon]
 logo = "material/home"
 
@@ -79,3 +78,11 @@ scheme = "slate"
 primary = "Hotpink"
 toggle.icon = "material/weather-sunny"
 toggle.name = "Switch to light mode"
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
