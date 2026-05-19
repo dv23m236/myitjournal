@@ -2,7 +2,7 @@
 
 ---
 
-### 📊 Weekly Review {#weekly-review}
+### 📊 Wochenrückblick {#wochenrueckblick}
 * **Erste Woche CI** 
 * **Github kennenlernen** 
 * **Eigene Webseite mit Github erstellen**
@@ -13,27 +13,27 @@ Ich habe innerhalb dieser zwei Tage bereits meine eigene Webseite mit GitHub dep
 
 ---
 
-### ⚠️ Issues & Assistance {#issues}
+### ⚠️ Probleme & Hilfestellungen {#probleme}
 
-#### Issues encountered
+#### Aufgetretene Probleme
 **-**
 
-#### Assistance needed
+#### Benötigte Hilfestellungen
 **-**
 
 ---
 
-### 🧠 Reflection {#reflection}
+### 🧠 Reflextion {#reflexion}
 In meiner ersten Woche in der Gruppe CI lief besonders gut, dass ich mich schnell in die neuen Aufgaben einarbeiten konnte. Obwohl die Woche kürzer war, konnte ich bereits meine eigene Webseite mit GitHub deployen und mein gewünschtes Design umsetzen. Ebenfalls funktionierte die Zusammenarbeit trotz Homeoffice von Michael sehr gut, sodass ich meine Aufträge selbstständig erledigen konnte.
 
 ---
 
-### 📅 Weekly Outlook {#outlook}
+### 📅 Wochenausblick {#wochenausblick}
 * **Sicherer mit Github werden**
 * **Weniger GUI, mehr CLI**
 * **Branches, Pull Requests, Mergen**
 
 ---
 
-### 📎 Miscellaneous {#miscellaneous}
+### 📎 Varia {#varia}
 Donnerstag halber Tag HomeOffice + Halber Tag Frei

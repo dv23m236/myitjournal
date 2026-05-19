@@ -1,8 +1,8 @@
-# Week 18 | 2026
+# Woche 18 | 2026
 
 ---
 
-### 📊 Weekly Review {#weekly-review}
+### 📊 Wochenrückblick {#wochenrueckblick}
 * **Prepare for the discovery day** 
 * **Discovery Day** 
 * **OSDCloud Documentation** 
@@ -15,25 +15,25 @@ On Monday morning, I continued working on the OSDCloud. In the afternoon, Simon 
 
 ---
 
-### ⚠️ Issues & Assistance {#issues}
+### ⚠️ Probleme & Hilfestellungen {#probleme}
 
-#### Issues encountered
+#### Aufgetretene Probleme
 * **-** 
 
-#### Assistance needed
+#### Benötigte Hilfestellungen
 * **-**
 
 ---
 
-### 🧠 Reflection {#reflection}
+### 🧠 Reflextion {#reflexion}
 Overall, the planning and execution of the discovery day went well this week. The preparations with Simon were well-organized and efficient. I also made good progress on my OSDCloud documentation and was able to review some school materials as well.
 
 ---
 
-### 📅 Weekly Outlook {#outlook}
+### 📅 Wochenausblick {#wochenausblick}
 * **Last week at WPS** 
 
 ---
 
-### 📎 Miscellaneous {#miscellaneous}
+### 📎 Varia {#varia}
 -

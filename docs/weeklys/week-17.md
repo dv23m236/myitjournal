@@ -2,7 +2,7 @@
 
 ---
 
-### 📊 Weekly Review {#weekly-review}
+### 📊 Wochenrückblick {#wochenrueckblick}
 * **OSDCloud** 
 * **English Presentation** 
 * **Assign IP address to a Worker** 
@@ -12,25 +12,25 @@ On Monday morning, I started updating my OSDCloud documentation. I had already c
 
 ---
 
-### ⚠️ Issues & Assistance {#issues}
+### ⚠️ Probleme & Hilfestellungen {#probleme}
 
-#### Issues encountered
+#### Aufgetretene Probleme
 * **-** 
 
-#### Assistance needed
+#### Benötigte Hilfestellungen
 * **-**
 
 ---
 
-### 🧠 Reflection {#reflection}
+### 🧠 Reflextion {#reflexion}
 I expanded and reorganized my OSDCloud documentation in a logical manner. Preparing for the English discussion paid off, as it went well overall. I was also able to successfully wrap up the topic regarding manual IP addresses. I also actively contributed ideas regarding the Uniprint issue and proposed a simple, effective solution. Even simple solutions (e.g., unplugging and replugging everything) can quickly resolve problems.
 
 ---
 
-### 📅 Weekly Outlook {#outlook}
+### 📅 Wochenausblick {#wochenausblick}
 * **Discovery Day** 
 
 ---
 
-### 📎 Miscellaneous {#miscellaneous}
+### 📎 Varia {#varia}
 -

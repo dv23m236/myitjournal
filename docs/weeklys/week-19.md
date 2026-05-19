@@ -2,7 +2,7 @@
 
 ---
 
-### 📊 Weekly Review {#weekly-review}
+### 📊 Wochenrückblick {#wochenrueckblick}
 * **ID Total** 
 * **Weekly** 
 * **Kursraum Engelhalde**
@@ -25,15 +25,15 @@ Ich habe Ändu Bescheid gegeben, er solle kurz überprüfen, ob er auf dem Syste
 
 ---
 
-### ⚠️ Issues & Assistance {#issues}
+### ⚠️ Probleme & Hilfestellungen {#probleme}
 
-#### Issues encountered
+#### Aufgetretene Probleme
 * **Einige PCs im Kursraum hatten kein Netzwerk mehr:** 
 * **Die kleinen Switches unter den Tischen hatten keinen Strom mehr:** 
 * **Nur einer der beiden Switches liess sich durch Aus- und Einstecken wieder starten:** 
 * **Nach dem Austausch hatte der Lehrer-PC weiterhin kein Netzwerk** 
 
-#### Assistance needed
+#### Benötigte Hilfestellungen
 * **Es wurde festgestellt das die Switche unter den Tischen keinen Strom mehr hatten**
 * **Beide Switches wurden aus- und wieder eingesteckt, um sie neu zu starten** 
 * **Mit Ändu wurde entschieden, den defekten Switch auszutauschen** 
@@ -42,7 +42,7 @@ Ich habe Ändu Bescheid gegeben, er solle kurz überprüfen, ob er auf dem Syste
 
 ---
 
-### 🧠 Reflection {#reflection}
+### 🧠 Reflextion {#reflexion}
 In dieser Woche lief gut, dass ich die Probleme im Kursraum selbstständig analysieren und die Ursache relativ schnell eingrenzen konnte. Besonders positiv war, dass ich die defekten Switches als Fehlerquelle erkannt und anschliessend gemeinsam mit Ändu eine passende Lösung gefunden habe. Ebenfalls konnte ich die Arbeiten sauber abschliessen und sicherstellen, dass am Ende wieder alle Geräte korrekt funktionierten.
 Die Zeit verging schneller als gedacht, somit musste ich am nächsten Tag nochmals zurückgehen.
 Systematische Fehlersuche kann helfen schneller das Problem zu finden.
@@ -50,11 +50,11 @@ Wichtig ist auch die Kommunikation mit dem Team und Entscheidungen zusammen zu e
 
 ---
 
-### 📅 Weekly Outlook {#outlook}
+### 📅 Wochenausblick {#wochenausblick}
 * **Gruppe wechseln, CI**
 * **Prüfungen in der Schule**
 
 ---
 
-### 📎 Miscellaneous {#miscellaneous}
+### 📎 Varia {#varia}
 -
