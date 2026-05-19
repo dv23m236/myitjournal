@@ -49,9 +49,7 @@
 }
 
 
-/* ====================================================================
-   LIGHT MODE (DEFAULT) COLORS - FULL NATURAL LIGHT WITH BLUE ACCENTS
-   ==================================================================== */
+/*   LIGHT MODE (DEFAULT) COLORS - FULL NATURAL LIGHT WITH BLUE ACCENTS */
 [data-md-color-scheme="default"] {
     /* Ändert das primäre Element (und den Standard-Header) im hellen Design zu Blau */
     --md-primary-fg-color: #2094f3;
@@ -61,7 +59,6 @@
     --md-typeset-a-color: #2094f3;
 }
 
-/* HIER WURDE DER SCHWARZE HEADER ENTFERNT - Er nimmt jetzt die Standard-Theme-Farbe an */
 
 /* Obere Tabs: Blau wenn aktiv, fokussiert oder mit der Maus überfahren */
 [data-md-color-scheme="default"] .md-tabs__item--active .md-tabs__link,
