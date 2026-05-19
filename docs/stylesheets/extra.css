@@ -47,3 +47,45 @@
     --md-accent-fg-color: #ff69b4;
     -webkit-tap-highlight-color: rgba(255, 105, 180, 0.3);
 }
+
+
+/* ====================================================================
+   LIGHT MODE (DEFAULT) COLORS - FULL NATURAL LIGHT WITH BLUE ACCENTS
+   ==================================================================== */
+[data-md-color-scheme="default"] {
+    /* Ändert das primäre Element (und den Standard-Header) im hellen Design zu Blau */
+    --md-primary-fg-color: #2094f3;
+    --md-primary-fg-color--transparent: rgba(32, 148, 243, 0.1);
+    
+    /* Ändert Links im Fließtext auf Blau */
+    --md-typeset-a-color: #2094f3;
+}
+
+/* HIER WURDE DER SCHWARZE HEADER ENTFERNT - Er nimmt jetzt die Standard-Theme-Farbe an */
+
+/* Obere Tabs: Blau wenn aktiv, fokussiert oder mit der Maus überfahren */
+[data-md-color-scheme="default"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="default"] .md-tabs__link:hover,
+[data-md-color-scheme="default"] .md-tabs__link:focus {
+    color: #2094f3 !important;
+    opacity: 1;
+}
+
+/* Linkes & rechtes Menü: Blau bei Hover/Fokus oder wenn die Seite aktiv ist */
+[data-md-color-scheme="default"] .md-nav__link:hover,
+[data-md-color-scheme="default"] .md-nav__link:focus,
+[data-md-color-scheme="default"] .md-nav__link--active {
+    color: #2094f3 !important;
+}
+
+/* Der vertikale Strich links neben dem aktuellen Inhaltsverzeichnis (TOC) */
+[data-md-color-scheme="default"] .md-nav__item--active > .md-nav__link {
+    border-left: 2px solid #2094f3 !important;
+    font-weight: 800;
+}
+
+/* Erzwingt Blau für Akzente (z.B. Knöpfe, mobile Effekte) im hellen Modus */
+[data-md-color-scheme="default"] * {
+    --md-accent-fg-color: #2094f3;
+    -webkit-tap-highlight-color: rgba(32, 148, 243, 0.3);
+}
