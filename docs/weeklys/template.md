@@ -1,39 +1,40 @@
-# Week \[XX\] | \[Year\] 
+# Woche \[XX\] | \[Year\] 
 
 ---
 
-### 📊 Weekly Review {#weekly-review}
-* **Task 1** 
-* **Task 2** 
-* **Task 3**
+### 📊 Wochenrückblick {#wochenrueckblick}
+* **Aufgabe 1** 
+* **Aufgabe 2** 
+* **Aufgabe 3**
 
-> Description of the tasks and progress on the projects listed above.
-
----
-
-### ⚠️ Issues & Assistance {#issues}
-
-#### Issues encountered
-* **Problem 1:** Description of the problem
-* **Problem 2:** Description of the problem
-
-#### Assistance needed
-* **Assistance 1:** Description of the assistance needed
+> Beschreibung der Aufgaben und des Fortschritts bei den oben genannten Projekten.
 
 ---
 
-### 🧠 Reflection {#reflection}
-* **What went well?** 
-* **What could be improved?** 
-* **Lessons learned**
+### ⚠️ Probleme & Hilfestellungen {#probleme}
+
+#### Aufgetretene Probleme
+* **Problem 1:** Beschreibung des Problems
+* **Problem 2:** Beschreibung des Problems
+
+#### Benötigte Hilfestellungen
+* **Hilfestellung 1: Beschreibung der benötigten Hilfe**
+* **Hilfestellung 2: Beschreibung der benötigten Hilfe**
 
 ---
 
-### 📅 Weekly Outlook {#outlook}
-* **Planned Tasks:** Task list for next week
-* **Goals:** Specific targets to hit
+### 🧠 Reflextion {#reflexion}
+* **Was lief gut in dieser Woche?**
+* **Was könnte verbessert werden?**
+* **Gelernte Lektionen oder Erkenntnisse**
 
 ---
 
-### 📎 Miscellaneous {#miscellaneous}
-> Any other relevant info, events, or notes.
+### 📅 Wochenausblick {#wochenausblick}
+* **Geplante Aufgaben und Projekte: Aufgabenliste für die kommende Woche**
+* **Ziele: Konkrete Ziele, die erreicht werden sollen**
+
+---
+
+### 📎 Varia {#varia}
+> Andere relevante Informationen oder Ereignisse, die ausserhalb der anderen Kategorien fallen und im Wochenbericht erwähnt werden sollen.
