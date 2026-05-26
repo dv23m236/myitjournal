@@ -23,7 +23,6 @@ nav = [
     { "Reference" = "reference.md" },
 
     { "Weekly Journal" = [
-        { "Weekly template" = "weeklys/template.md" },
         { "Week 21" = "weeklys/week-21.md" },
         { "Week 20" = "weeklys/week-20.md" },
         { "Week 19" = "weeklys/week-19.md" },
