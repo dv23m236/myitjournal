@@ -14,11 +14,11 @@ extra_css = ["stylesheets/extra.css"]
 nav = [
     { "Home" = "index.md" },
     { "Guides" = [
-        { "Zensical" = "guides/zensical.md" },
-        { "Git & GitHub" = [
-            { "Basics" = "guides/git-basics.md" },
-            { "Advanced Recipes" = "guides/git-recipes.md" }
-        ] },
+        { "Conda Grundlagen" = "guides/conda_basics.md" },
+        { "Zensical Environment" = "guides/zensical_env.md" },
+        { "Git & Erstes Projekt" = "guides/git_project.md" },
+        { "GitHub Pages" = "guides/github_pages.md" }
+        
     ] },
     { "Reference" = "reference.md" },
 
