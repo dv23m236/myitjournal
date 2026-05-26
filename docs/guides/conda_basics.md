@@ -16,7 +16,7 @@ Einruchtung von Miniconda sowie das Erlernen des gurndlegenden Workflows zur:
 
 ---
 
-# Installation der Conda-Umgebung
+## Installation der Conda-Umgebung
 Die Installation von Miniconda erfolgte zentral über den Paketmanager Homebrew.
 
 ---
@@ -56,6 +56,7 @@ Um den Umgang mit isolierten Umgebungen zu testen, wurde der vollständige Leben
 4. Löschen
 
 ---
+
 
 ### Testumgebung erstellen
 
