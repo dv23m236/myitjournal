@@ -17,7 +17,8 @@ nav = [
         { "Conda Grundlagen" = "guides/conda_basics.md" },
         { "Zensical Environment" = "guides/zensical_env.md" },
         { "Git & Erstes Projekt" = "guides/git_project.md" },
-        { "GitHub Pages" = "guides/github_pages.md" }
+        { "GitHub Pages" = "guides/github_pages.md" },
+        { "Azure SWA Deployment" = "guides/azure_swa_deployment.md" }
         
     ] },
     { "Reference" = "reference.md" },
