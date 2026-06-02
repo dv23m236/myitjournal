@@ -84,6 +84,7 @@ chmod +x setup-infra.sh publish.sh
 # Danach Skript starten via:
 ./setup-infra.sh
 ```
+
 ---
 
 ## Spickzettel
