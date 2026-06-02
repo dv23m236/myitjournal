@@ -18,7 +18,8 @@ nav = [
         { "Zensical Environment" = "guides/zensical_env.md" },
         { "Git & Erstes Projekt" = "guides/git_project.md" },
         { "GitHub Pages" = "guides/github_pages.md" },
-        { "Azure SWA Deployment" = "guides/azure_swa_deployment.md" }
+        { "Azure SWA Deployment" = "guides/azure_swa_deployment.md" },
+        { "Azure SWA Deployment" = "guides/azure_swa_cli_deployment.md" }
         
     ] },
     { "Reference" = "reference.md" },
