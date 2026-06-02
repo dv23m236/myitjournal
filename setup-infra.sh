@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variablen definieren
-RESOURCE_GROUP="rg-myitjournal"
+RESOURCE_GROUP="rg-davide-journal-test"
 SWA_NAME="myitjournal-manual"
 LOCATION="westeurope"
 

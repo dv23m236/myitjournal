@@ -27,7 +27,7 @@ Legt die Ressourcengruppe und die Static Web App in Azure an. Durch das Weglasse
 
 ```bash
 #!/bin/bash
-RESOURCE_GROUP="rg-myitjournal"
+RESOURCE_GROUP="rg-davide-journal-test"
 SWA_NAME="myitjournal-manual"
 LOCATION="westeurope"
 
@@ -47,7 +47,7 @@ Liest das Deployment-Token dynamisch aus Azure aus und startet den Upload des lo
 #!/bin/bash
 set -e # Bricht bei Fehlern sofort ab
 
-RESOURCE_GROUP="rg-myitjournal"
+RESOURCE_GROUP="rg-davide-journal-test"
 SWA_NAME="myitjournal-manual"
 
 echo "Überspringe Build (Dateien liegen bereit in /site)"
@@ -84,24 +84,6 @@ chmod +x setup-infra.sh publish.sh
 # Danach Skript starten via:
 ./setup-infra.sh
 ```
-
-### Lokale CLI-Konfiguration (`swa-cli.config.json`)
-
-Den integrierten Assistenten starten und wie folgt beantworten:
-
-```bash
-swa init
-```
-
-| Frage | Antwort |
-|---|---|
-| Projektnamen wählen | `myitjournal` |
-| Framework-Auswahl | `manually enter options` |
-| App-Pfad | `.` (aktueller Ordner) |
-| Output-Pfad | `site` |
-| Build-Befehl | *(leer lassen)* |
-| API-Befehl | *(leer lassen)* |
-
 ---
 
 ## Spickzettel

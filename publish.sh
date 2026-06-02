@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-RESOURCE_GROUP="rg-myitjournal"
+RESOURCE_GROUP="rg-davide-journal-test"
 SWA_NAME="myitjournal-manual"
 
 echo "Überspringe Build (Dateien liegen bereit in /site)..."
