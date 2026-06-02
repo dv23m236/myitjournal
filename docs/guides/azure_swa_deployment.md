@@ -145,7 +145,7 @@ Damit GitHub Actions auf Azure zugreifen kann, ist ein Deployment Secret erforde
 ---
 
 
-## Spickzettel (Cheat Sheet)
+## Spickzettel
 
 ### Azure Static Web App einrichten
 
