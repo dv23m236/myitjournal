@@ -22,9 +22,10 @@ nav = [
         { "Azure SWA Deployment" = "guides/azure_swa_cli_deployment.md" }
         
     ] },
-    { "Reference" = "reference.md" },
+#    { "Reference" = "reference.md" },
 
     { "Weekly Journal" = [
+        { "Week 22" = "weeklys/week-22.md" },
         { "Week 21" = "weeklys/week-21.md" },
         { "Week 20" = "weeklys/week-20.md" },
         { "Week 19" = "weeklys/week-19.md" },
