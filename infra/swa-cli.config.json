@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/swa-cli.config.json",
+  "configurations": {
+    "myitjournal": {
+      "appLocation": ".",
+      "outputLocation": "site",
+      "projectName": "myitjournal-manual",
+      "resourceGroup": "rg-myitjournal"
+    }
+  }
+}
