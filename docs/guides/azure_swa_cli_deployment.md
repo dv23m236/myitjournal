@@ -10,10 +10,10 @@ Ziel war es, eine Lösung zu entwickeln, bei der sowohl die Infrastruktur als au
 
 ## Ziele im Überblick
 
-- **Infrastruktur als Code** — Automatische Erstellung der Azure Static Web App über ein Bash-Skript mit dem Azure CLI (`az`).
-- **Schnittstellen-Entkopplung** — Einrichtung einer App ohne standardmässige GitHub-Repository-Bindung.
-- **Manuelle Publikation per CLI** — Bereitstellung der generierten Webseiten-Dateien aus `./site` via SWA CLI (`swa`).
-- **Transparente Fehlerdokumentation** — Aufzeigen von Einschränkungen im universitären Umfeld (Tenant-Sperren) und Bereitstellung eines Token-basierten Workarounds.
+- **Infrastruktur als Code:** Automatische Erstellung der Azure Static Web App über ein Bash-Skript mit dem Azure CLI (`az`).
+- **Schnittstellen-Entkopplung:** Einrichtung einer App ohne standardmässige GitHub-Repository-Bindung.
+- **Manuelle Publikation per CLI:** Bereitstellung der generierten Webseiten-Dateien aus `./site` via SWA CLI (`swa`).
+- **Transparente Fehlerdokumentation:** Aufzeigen von Einschränkungen im universitären Umfeld (Tenant-Sperren) und Bereitstellung eines Token-basierten Workarounds.
 
 ---
 
@@ -67,9 +67,9 @@ echo "Fertig! Deine Website ist live."
 
 ### Erklärung wichtiger Anpassungen
 
-- **Entkopplung vom Repository** — Durch den Verzicht auf `--source` oder `--branch` blockiert Azure keine manuellen CLI-Uploads.
-- **Dynamischer Token-Abruf** — `az staticwebapp secrets list` fragt das Deployment-Token vollautomatisch ab. Ein manuelles Kopieren entfällt.
-- **`set -e` im Deployment** — Stoppt das Skript sofort, falls eine Aktion (z. B. Token-Abruf oder Upload) fehlschlägt.
+- **Entkopplung vom Repository:** Durch den Verzicht auf `--source` oder `--branch` blockiert Azure keine manuellen CLI-Uploads.
+- **Dynamischer Token-Abruf:** `az staticwebapp secrets list` fragt das Deployment-Token vollautomatisch ab. Ein manuelles Kopieren entfällt.
+- **`set -e` im Deployment:** Stoppt das Skript sofort, falls eine Aktion (z. B. Token-Abruf oder Upload) fehlschlägt.
 
 ---
 
