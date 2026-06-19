@@ -2,9 +2,9 @@
 
 ## Ausgangslage & Zielsetzung
 
-Das persönliche IT-Journal soll auf Azure Static Web Apps (SWA) gehostet werden. Im Gegensatz zum Standard-Workflow mit GitHub Actions soll die Bereitstellung vollständig unabhängig von externen Pipelines direkt über die Kommandozeile gesteuert werden.
+Das persönliche IT-Journal soll als Azure Static Web App (SWA) betrieben werden. Im Gegensatz zum Standard-Workflow mit GitHub Actions soll die Bereitstellung vollständig unabhängig von externen Pipelines direkt über die Kommandozeile gesteuert werden.
 
-Ziel war es, eine Lösung zu entwickeln, bei der sowohl die Infrastruktur als auch das eigentliche Publizieren der Webseiten-Inhalte über lokale Bash-Skripte kontrolliert werden. Inhalte werden lokal verändert und per Befehl direkt in die Cloud publiziert.
+Ziel war es, eine Lösung zu entwickeln, bei der sowohl die Infrastruktur als auch das eigentliche Publizieren der Webseiten-Inhalte über lokale Bash-Skripts kontrolliert werden. Inhalte werden lokal verändert und per Befehl direkt in die Cloud publiziert.
 
 ---
 

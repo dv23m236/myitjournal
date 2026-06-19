@@ -1,4 +1,4 @@
-# Python- & Wumgebungsverwaltung mit Conda
+# Python- & Umgebungsverwaltung mit Conda
 
 ## Ausgangslage & Zielsetzung
 
@@ -7,16 +7,18 @@ Für die Entwicklung von Projekten (wie z. B. der späteren Installation von Zen
 Die globale Installation von Paketen direkt auf dem Mac soll vermieden werden, um Versionskonflikte zu verhindern.
 
 ## Ziel des Auftrags
-Einruchtung von Miniconda sowie das Erlernen des gurndlegenden Workflows zur:
+
+Einrichtung von Miniconda sowie das Erlernen des grundlegenden Workflows zur:
 
 - Erstellung virtueller Umgebungen
 - Aktivierung und Deaktivierung
-- Installation spzeifischer Pyhton-Versionen
+- Installation spezifischer Python-Versionen
 - Verwaltung und Entfernung von Paketen und Umgebungen
 
 ---
 
 ## Installation der Conda-Umgebung
+
 Die Installation von Miniconda erfolgte zentral über den Paketmanager Homebrew.
 
 ---
@@ -24,13 +26,15 @@ Die Installation von Miniconda erfolgte zentral über den Paketmanager Homebrew.
 ## Installation
 
 ### Miniconda über Homebrew Cask installieren
+
 ```bash
 brew install --cask miniconda
 ```
 
 ---
 
-### Conda für die Zsh-Shell registieren und initialisieren
+### Conda für die ZSH-Shell registrieren und initialisieren
+
 ```bash
 conda init zsh
 ```
@@ -43,12 +47,11 @@ conda init zsh
     source ~/.zshrc
     ```
 
-
 ---
 
 ## Workflow: Handhabung von Umgebungen
 
-Um den Umgang mit isolierten Umgebungen zu testen, wurde der vollständige Lebenszyklus einer Testumgebung durchgefhürt:
+Um den Umgang mit isolierten Umgebungen zu testen, wurde der vollständige Lebenszyklus einer Testumgebung durchgeführt:
 
 1. Erstellen
 2. Aktivieren
@@ -56,7 +59,6 @@ Um den Umgang mit isolierten Umgebungen zu testen, wurde der vollständige Leben
 4. Löschen
 
 ---
-
 
 ### Testumgebung erstellen
 
@@ -100,7 +102,7 @@ conda env remove --name test_env
 
 ---
 
-## Fortgeschrittene Kofniguration: Spezifische Python-Versionen & Pakete
+## Fortgeschrittene Konfiguration: Spezifische Python-Versionen & Pakete
 
 ### Erstellung mit expliziter Python-Version
 
@@ -113,7 +115,8 @@ conda create --name my_test_env python=3.14
 
 ---
 
-### Paketinstallation 
+### Paketinstallation
+
 Nachdem eine spezifische Umgebung aktiviert wurde, lassen sich Pakete isoliert installieren, ohne andere Projekte oder das Basissystem zu beeinflussen.
 
 Im Rahmen des Auftrages wurde das Data-Science-Paket `numpy`installiert.
@@ -136,9 +139,10 @@ conda install numpy
 | `conda list` | Listet alle installierten Pakete innerhalb der aktuell aktiven Umgebung auf |
 | `conda search <paketname>` | Sucht in den Online-Repositories nach verfügbaren Paketversionen |
 
-
 ## Fazit
 
-Mit Conda lassen sich python-Projekte sauber voneineander isolieren.
-Dadurch können unterschiedliche Python-Versionen und Paketstände parallel betreiben werden, ohne das Hauptsystem zu beeinflussen.
-Diese Struktur bildet die Grundlage für reporoduzierbare Enwicklungsumgebungen und erleichtert spätere Projektinstallationen erhelblich
+Mit Conda lassen sich Python-Projekte sauber voneinander isolieren.
+Dadurch können unterschiedliche Python-Versionen und Paketstände parallel betrieben werden, ohne das Hauptsystem zu beeinflussen.
+Diese Struktur bildet die Grundlage für reproduzierbare Entwicklungsumgebungen
+und erleichtert spätere Projektinstallationen erheblich.
+
