@@ -62,11 +62,7 @@ In der linken Navigationsleiste wurde der Menüpunkt **Pages** ausgewählt.
 
 ### Build & Deployment konfigurieren
 
-Unter **Source** wurde die Option:
-
-- `Deploy from a branch`
-
-ausgewählt.
+Unter **Source** wurde die Option `Deploy from a branch` ausgewählt.
 
 Anschliessend wurden folgende Einstellungen vorgenommen:
 
@@ -87,7 +83,6 @@ Anschliessend wurden folgende Einstellungen vorgenommen:
     - `public/`
 
 ---
-
 
 ### Deployment speichern
 
@@ -162,3 +157,4 @@ steht nun eine moderne und professionelle Dokumentationsplattform zur Verfügung
 
 Änderungen am Projekt können zukünftig lokal entwickelt,
 über Git versioniert und automatisch online veröffentlicht werden.
+

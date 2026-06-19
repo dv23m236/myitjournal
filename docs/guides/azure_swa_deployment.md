@@ -112,7 +112,6 @@ Damit die Webseite nicht über die Azure-Standarddomain läuft, wurde eine eigen
 4. DNS-Einträge beim Domain-Anbieter setzen
 5. Validierung durch Azure abwarten
 
-
 > Danach ist die Webseite über die eigene Domain erreichbar.
 
 !!! info
@@ -143,7 +142,6 @@ Damit GitHub Actions auf Azure zugreifen kann, ist ein Deployment Secret erforde
     Der Name des Secrets muss exakt mit dem Namen übereinstimmen, der im YAML-Workflow unter `azure_static_web_apps_api_token` angegeben ist. Stimmen die Namen nicht überein, schlägt das Deployment fehl.
 
 ---
-
 
 ## Spickzettel
 
@@ -186,7 +184,7 @@ Damit GitHub Actions auf Azure zugreifen kann, ist ein Deployment Secret erforde
 | 6. DNS-Eintrag setzen | CNAME-Record beim Domain-Anbieter auf Azure-URL zeigen lassen |
 | 7. Validierung | Azure prüft den DNS-Eintrag automatisch |
 
---- 
+---
 
 ## Fazit
 
@@ -199,3 +197,4 @@ Durch die Kombination von GitHub Actions, Zensical und Azure Static Web Apps wur
 - Nutzung einer eigenen Domain statt Azure-Standard-URL
 
 Damit wurde eine moderne, skalierbare und vollständig automatisierte Hosting-Lösung erfolgreich umgesetzt.
+

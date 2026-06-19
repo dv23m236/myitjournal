@@ -6,11 +6,11 @@ Das Ziel dieses Auftrags war es, eine dedizierte Arbeitsumgebung für das IT-Jou
 
 Darin enthalten sein sollten:
 
-- Die Erstellung einer isolierten vorutellen Umgebung
+- Die Erstellung einer isolierten virtuellen Umgebung
 - Die Installation einer aktuellen Python-Version
 - Die Einrichtung des Dokumentations-Frameworks Zensical
 
-Folgende Kriterien mssten erfüllt werden:
+Folgende Kriterien mussten erfüllt werden:
 
 - Erstellung und Aktivierung einer Conda-Umgebung mit dem Namen `itjournal`
 - Installation einer aktuellen Python-Version inklusive des Paketmanagers `pip`
@@ -49,7 +49,7 @@ pip install zensical
 
 ## Funktionstest & Validierung
 
-Um sicherzustellen, dass die Isntallation fehlerfrei verlaufen ist und die Sytempfade korrekt gesetzt wurden, wurde die CLI von Zensical überprüft.
+Um sicherzustellen, dass die Installation fehlerfrei verlaufen ist und die Systempfade korrekt gesetzt wurden, wurde die CLI von Zensical überprüft.
 
 ```bash
 # Aufrufen der Zensical-Hilfe-Funktion
@@ -58,8 +58,8 @@ zensical --help
 
 ### Ergebnis / Validierung
 
-Der befehl wurde erfolgreich ausgeführt
-Das Terminal gab die offizielle Hilfemeldung von Zensical aus, welche alle verfügbaren befehle wie:
+Der Befehl wurde erfolgreich ausgeführt.
+Das Terminal gab die offizielle Hilfemeldung von Zensical aus, welche alle verfügbaren Befehle wie:
 
 - `init`
 - `build`
@@ -67,7 +67,7 @@ Das Terminal gab die offizielle Hilfemeldung von Zensical aus, welche alle verf�
 
 sowie weitere Optionen auflistet.
 
-Damit ist die Umgebung vollsätndig einsatzbereit.
+Damit ist die Umgebung vollständig einsatzbereit.
 
 ---
 
@@ -98,4 +98,5 @@ Durch die Kombination aus:
 - pip
 - Zensical
 
-können zukünftige Dokuemntationen und Projekte sauber getrennt, verwaltet und erweitert werden.
+können zukünftige Dokumentationen und Projekte sauber getrennt, verwaltet und erweitert werden.
+
