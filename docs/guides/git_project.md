@@ -1,10 +1,10 @@
-# Git & Erstes projekt
+# Git & Erstes Projekt
 
 ## Zielsetzung & Anforderungen
 
-Das Ziel dieses Auftrags war es, ein Projekt auf Github zu veröffentlichen
+Das Ziel dieses Auftrags war es, ein Projekt auf GitHub zu veröffentlichen
 
-Dabei sollte ein neues Projektverzeichnis von Grund auf neu sturkturiert, versioniert und als Basis für das persönliche IT-Journal initialisiert werden.
+Dabei sollte ein neues Projektverzeichnis von Grund auf neu strukturiert, versioniert und als Basis für das persönliche IT-Journal initialisiert werden.
 
 Folgende Anforderungen wurden umgesetzt:
 
@@ -19,7 +19,7 @@ Folgende Anforderungen wurden umgesetzt:
 
 ## Lokales Verzeichnis & Git-Initialisierung
 
-Zuerst wurde über das Terminal ein sturkturierter Ordner im lokalen Benutzverzeichnis angelegt und als Git-Repository deklariert.
+Zuerst wurde über das Terminal ein strukturierter Ordner im lokalen Benutzverzeichnis angelegt und als Git-Repository initialisiert.
 
 ```bash
 mkdir -p ~/myitjournal
@@ -32,7 +32,8 @@ git init
 ---
 
 ## Remote-Verknüpfung mit GitHub
-Im nächsten Schritt wurde im Browser auf GitHub ein neues, leeres Repository names `itjournal` erstellt.
+
+Im nächsten Schritt wurde im Browser auf GitHub ein neues, leeres Repository namens `itjournal` erstellt.
 
 !!! Hinweis
 
@@ -50,7 +51,7 @@ git remote add origin git@github.com:dv23m236/myitjournal.git
 
 ## Zensical Projekt-Initialisierung
 
-Da die Conda-Umgebung `itjournal` aus dem vorherigen Auftrag bereits alle Abhänigkeiten bereitgestellt, konnte das Zensical-Projekt direkt im frisch verknüpften Ordner generiert werden.
+Da die Conda-Umgebung `itjournal` aus dem vorherigen Auftrag bereits alle Abhängigkeiten bereitgestellt, konnte das Zensical-Projekt direkt im frisch verknüpften Ordner generiert werden.
 
 ```bash
 conda activate itjournal
@@ -68,7 +69,7 @@ zensical init
 
 ## Der erste Commit
 
-Zum Abschluss wurden alle autoamtisch generierten Systemdateien und Ordnerstrukturen gesammelt, dem Git-Index hinzugefügt und anschliessend auf GitHub hochgeladen
+Zum Abschluss wurden alle automatisch generierten Systemdateien und Ordnerstrukturen gesammelt, dem Git-Index hinzugefügt und anschliessend auf GitHub hochgeladen
 
 ```bash
 git add .
@@ -82,7 +83,7 @@ git push -u origin main
 
 ## Ergebnis & Validierung
 
-Die lokale Entwicklungsumgebung wurde erfolgreich mit GitHub vebrunden.
+Die lokale Entwicklungsumgebung wurde erfolgreich mit GitHub verbunden.
 
 Folgende Komponenten funktionieren nun vollständig:
 
@@ -112,7 +113,7 @@ Das Projekt bildet damit die Grundlage für das weitere IT-Journal.
 | `zensical serve` | Startet die lokale Vorschau |
 | `zensical build` | Erstellt die statische Website |
 
---- 
+---
 
 ## Fazit
 
@@ -128,4 +129,5 @@ Durch die Kombination aus:
 
 steht nun eine moderne Entwicklungs- und Dokumentationsumgebung zur Verfügung.
 
-Die Projektstruktur ist versioniert, reproduzierbar und kann zukünftig problemlos erweitert oder veröffentlicht werden. 
+Die Projektstruktur ist versioniert, reproduzierbar und kann zukünftig problemlos erweitert oder veröffentlicht werden.
+
