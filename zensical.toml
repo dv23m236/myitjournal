@@ -25,6 +25,7 @@ nav = [
 #    { "Reference" = "reference.md" },
 
     { "Weekly Journal" = [
+        { "Week 29" = "weeklys/week-29.md" },
         { "Week 28" = "weeklys/week-28.md" },
         { "Week 27" = "weeklys/week-27.md" },
         { "Week 26" = "weeklys/week-26.md" },
