@@ -6,91 +6,95 @@
     <marker id="arrowStart" markerWidth="9" markerHeight="9" refX="1" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M8,0 L8,6 L0,3 z" fill="#5a6472"/>
     </marker>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <rect width="1000" height="620" fill="#ffffff"/>
-
-  <text x="500" y="36" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a1a">Spotify Stats – Systemarchitektur</text>
+  <rect x="330" y="14" width="340" height="30" rx="8" fill="#1a1a1a" opacity="0.55"/>
+  <text x="500" y="35" text-anchor="middle" font-size="18" font-weight="700" fill="#f0f0f0">Spotify Stats – Systemarchitektur</text>
 
   <!-- Spotify Account -->
-  <rect x="40" y="80" width="220" height="90" rx="14" fill="#1DB954" opacity="0.08" stroke="#1DB954" stroke-width="2"/>
+  <rect x="40" y="80" width="220" height="90" rx="14" fill="#eafaf0" stroke="#1DB954" stroke-width="2" filter="url(#cardShadow)"/>
   <text x="150" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#0f5c2e">Spotify Account</text>
-  <text x="150" y="140" text-anchor="middle" font-size="12" fill="#3a3a3a">OAuth-Provider</text>
+  <text x="150" y="140" text-anchor="middle" font-size="12" fill="#2f2f2f">OAuth-Provider</text>
 
   <!-- User / Browser -->
-  <rect x="40" y="400" width="220" height="130" rx="14" fill="#4361ee" opacity="0.08" stroke="#4361ee" stroke-width="2"/>
-  <text x="150" y="436" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2f8a">User / Browser</text>
-  <text x="150" y="460" text-anchor="middle" font-size="12" fill="#3a3a3a">ZIP-Upload · Dashboard</text>
-  <text x="150" y="478" text-anchor="middle" font-size="12" fill="#3a3a3a">Duell-UI</text>
-  <text x="150" y="502" text-anchor="middle" font-size="11" fill="#5a5a5a" font-style="italic">(2 gleichzeitige User bei Duellen)</text>
+  <rect x="40" y="400" width="220" height="130" rx="14" fill="#f5eefc" stroke="#805ad5" stroke-width="2" filter="url(#cardShadow)"/>
+  <text x="150" y="436" text-anchor="middle" font-size="16" font-weight="700" fill="#553c9a">User / Browser</text>
+  <text x="150" y="460" text-anchor="middle" font-size="12" fill="#2f2f2f">ZIP-Upload · Dashboard</text>
+  <text x="150" y="478" text-anchor="middle" font-size="12" fill="#2f2f2f">Duell-UI</text>
+  <text x="150" y="502" text-anchor="middle" font-size="11" fill="#4a4a4a" font-style="italic">(2 gleichzeitige User bei Duellen)</text>
 
   <!-- Backend -->
-  <rect x="360" y="80" width="290" height="450" rx="14" fill="#f6ad55" opacity="0.10" stroke="#dd6b20" stroke-width="2"/>
+  <rect x="360" y="80" width="290" height="450" rx="14" fill="#fdf3e7" stroke="#dd6b20" stroke-width="2" filter="url(#cardShadow)"/>
   <text x="505" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#7c3e0a">Node.js / Express</text>
-  <text x="505" y="135" text-anchor="middle" font-size="12" fill="#5a5a5a" font-family="monospace">Backend (app.js)</text>
+  <text x="505" y="135" text-anchor="middle" font-size="12" fill="#4a4a4a" font-family="monospace">Backend (app.js)</text>
 
   <rect x="385" y="160" width="240" height="42" rx="8" fill="#ffffff" stroke="#dd6b20" stroke-width="1.5"/>
-  <text x="505" y="186" text-anchor="middle" font-size="13" fill="#3a3a3a">REST-API</text>
+  <text x="505" y="186" text-anchor="middle" font-size="13" fill="#2f2f2f">REST-API</text>
 
   <rect x="385" y="217" width="240" height="95" rx="8" fill="#ffffff" stroke="#dd6b20" stroke-width="1.5"/>
-  <text x="505" y="240" text-anchor="middle" font-size="13" font-weight="600" fill="#3a3a3a">WebSockets (Socket.IO)</text>
-  <text x="505" y="262" text-anchor="middle" font-size="12" fill="#5a5a5a">Import-Status</text>
-  <text x="505" y="281" text-anchor="middle" font-size="12" fill="#5a5a5a">Duell-Logik</text>
+  <text x="505" y="240" text-anchor="middle" font-size="13" font-weight="600" fill="#2f2f2f">WebSockets (Socket.IO)</text>
+  <text x="505" y="262" text-anchor="middle" font-size="12" fill="#4a4a4a">Import-Status</text>
+  <text x="505" y="281" text-anchor="middle" font-size="12" fill="#4a4a4a">Duell-Logik</text>
 
   <rect x="385" y="327" width="240" height="42" rx="8" fill="#ffffff" stroke="#dd6b20" stroke-width="1.5"/>
-  <text x="505" y="353" text-anchor="middle" font-size="13" fill="#3a3a3a">Hintergrund-Sync-Job</text>
+  <text x="505" y="353" text-anchor="middle" font-size="13" fill="#2f2f2f">Hintergrund-Sync-Job</text>
 
   <rect x="385" y="384" width="240" height="42" rx="8" fill="#ffffff" stroke="#dd6b20" stroke-width="1.5"/>
-  <text x="505" y="410" text-anchor="middle" font-size="13" fill="#3a3a3a">Application Insights</text>
+  <text x="505" y="410" text-anchor="middle" font-size="13" fill="#2f2f2f">Application Insights</text>
 
   <text x="505" y="500" text-anchor="middle" font-size="11" fill="#8a6d3b">Session-Verwaltung pro User</text>
   <text x="505" y="516" text-anchor="middle" font-size="11" fill="#8a6d3b">(eigene Spotify-Tokens je Client)</text>
 
   <!-- Cosmos DB -->
-  <rect x="740" y="230" width="220" height="270" rx="14" fill="#4299e1" opacity="0.08" stroke="#2b6cb0" stroke-width="2"/>
+  <rect x="740" y="230" width="220" height="270" rx="14" fill="#eaf3fc" stroke="#2b6cb0" stroke-width="2" filter="url(#cardShadow)"/>
   <text x="850" y="265" text-anchor="middle" font-size="16" font-weight="700" fill="#1a4971">Azure Cosmos DB</text>
-  <text x="850" y="285" text-anchor="middle" font-size="12" fill="#3a3a3a">NoSQL · Serverless</text>
+  <text x="850" y="285" text-anchor="middle" font-size="12" fill="#2f2f2f">NoSQL · Serverless</text>
 
   <line x1="760" y1="298" x2="940" y2="298" stroke="#2b6cb0" stroke-width="1"/>
 
   <rect x="760" y="313" width="180" height="34" rx="6" fill="#ffffff" stroke="#2b6cb0" stroke-width="1"/>
-  <text x="850" y="335" text-anchor="middle" font-size="12" font-family="monospace" fill="#3a3a3a">Users</text>
+  <text x="850" y="335" text-anchor="middle" font-size="12" font-family="monospace" fill="#2f2f2f">Users</text>
 
   <rect x="760" y="356" width="180" height="34" rx="6" fill="#ffffff" stroke="#2b6cb0" stroke-width="1"/>
-  <text x="850" y="378" text-anchor="middle" font-size="12" font-family="monospace" fill="#3a3a3a">StreamHistory</text>
+  <text x="850" y="378" text-anchor="middle" font-size="12" font-family="monospace" fill="#2f2f2f">StreamHistory</text>
 
   <rect x="760" y="399" width="180" height="34" rx="6" fill="#ffffff" stroke="#2b6cb0" stroke-width="1"/>
-  <text x="850" y="421" text-anchor="middle" font-size="12" font-family="monospace" fill="#3a3a3a">SpotifyTokens</text>
+  <text x="850" y="421" text-anchor="middle" font-size="12" font-family="monospace" fill="#2f2f2f">SpotifyTokens</text>
 
   <rect x="760" y="442" width="180" height="34" rx="6" fill="#ffffff" stroke="#2b6cb0" stroke-width="1"/>
-  <text x="850" y="464" text-anchor="middle" font-size="12" font-family="monospace" fill="#3a3a3a">CoverCache</text>
+  <text x="850" y="464" text-anchor="middle" font-size="12" font-family="monospace" fill="#2f2f2f">CoverCache</text>
 
   <!-- Arrows -->
   <!-- Spotify -> Backend -->
-  <line x1="260" y1="125" x2="355" y2="125" stroke="#5a6472" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="307" y="115" text-anchor="middle" font-size="11" fill="#5a6472">OAuth 2.0</text>
+  <line x1="260" y1="125" x2="352" y2="125" stroke="#5a6472" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="277" y="107" width="66" height="18" rx="4" fill="#ffffff" stroke="#c9ccd1" stroke-width="1"/>
+  <text x="310" y="120" text-anchor="middle" font-size="11" fill="#3a3a3a">OAuth 2.0</text>
 
-  <!-- Browser <-> Backend: single bidirectional arrow, straight, with label box to the side -->
+  <!-- Browser <-> Backend: single bidirectional arrow -->
   <line x1="230" y1="400" x2="400" y2="212" stroke="#5a6472" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
 
-  <rect x="205" y="290" width="128" height="70" rx="8" fill="#ffffff" stroke="#c9ccd1" stroke-width="1"/>
-  <text x="269" y="310" text-anchor="middle" font-size="11" fill="#4a5568">ZIP-Upload &amp;</text>
-  <text x="269" y="326" text-anchor="middle" font-size="11" fill="#4a5568">Duell-Events</text>
-  <text x="269" y="342" text-anchor="middle" font-size="11" fill="#4a5568">Live-Updates</text>
+  <rect x="205" y="290" width="128" height="70" rx="8" fill="#ffffff" stroke="#c9ccd1" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="269" y="310" text-anchor="middle" font-size="11" fill="#3a3a3a">ZIP-Upload &amp;</text>
+  <text x="269" y="326" text-anchor="middle" font-size="11" fill="#3a3a3a">Duell-Events</text>
+  <text x="269" y="342" text-anchor="middle" font-size="11" fill="#3a3a3a">Live-Updates</text>
 
   <!-- Backend -> Cosmos: single bidirectional arrow -->
   <line x1="625" y1="290" x2="735" y2="330" stroke="#5a6472" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
-  <rect x="638" y="240" width="100" height="46" rx="8" fill="#ffffff" stroke="#c9ccd1" stroke-width="1"/>
-  <text x="688" y="258" text-anchor="middle" font-size="11" fill="#4a5568">Speichern /</text>
-  <text x="688" y="274" text-anchor="middle" font-size="11" fill="#4a5568">Lesen</text>
+  <rect x="638" y="240" width="100" height="46" rx="8" fill="#ffffff" stroke="#c9ccd1" stroke-width="1" filter="url(#cardShadow)"/>
+  <text x="688" y="258" text-anchor="middle" font-size="11" fill="#3a3a3a">Speichern /</text>
+  <text x="688" y="274" text-anchor="middle" font-size="11" fill="#3a3a3a">Lesen</text>
 
   <!-- Legend -->
-  <rect x="40" y="560" width="14" height="14" fill="#1DB954" opacity="0.3" stroke="#1DB954"/>
-  <text x="60" y="571" font-size="11" fill="#3a3a3a">Externer Dienst</text>
-  <rect x="180" y="560" width="14" height="14" fill="#4361ee" opacity="0.3" stroke="#4361ee"/>
-  <text x="200" y="571" font-size="11" fill="#3a3a3a">Client</text>
-  <rect x="280" y="560" width="14" height="14" fill="#f6ad55" opacity="0.4" stroke="#dd6b20"/>
-  <text x="300" y="571" font-size="11" fill="#3a3a3a">Anwendungslogik</text>
-  <rect x="430" y="560" width="14" height="14" fill="#4299e1" opacity="0.3" stroke="#2b6cb0"/>
-  <text x="450" y="571" font-size="11" fill="#3a3a3a">Datenhaltung</text>
+  <rect x="30" y="550" width="520" height="34" rx="8" fill="#1a1a1a" opacity="0.55"/>
+  <rect x="42" y="560" width="14" height="14" fill="#1DB954"/>
+  <text x="62" y="571" font-size="11" fill="#f0f0f0">Externer Dienst</text>
+  <rect x="182" y="560" width="14" height="14" fill="#805ad5"/>
+  <text x="202" y="571" font-size="11" fill="#f0f0f0">Client</text>
+  <rect x="282" y="560" width="14" height="14" fill="#dd6b20"/>
+  <text x="302" y="571" font-size="11" fill="#f0f0f0">Anwendungslogik</text>
+  <rect x="432" y="560" width="14" height="14" fill="#2b6cb0"/>
+  <text x="452" y="571" font-size="11" fill="#f0f0f0">Datenhaltung</text>
 </svg>
