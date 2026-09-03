@@ -18,6 +18,7 @@ In dieser Woche startete ich in der Gruppe PMO. Es war etwas anders, als ich es 
 
 #### Benötigte Hilfestellungen
 -
+
 ---
 
 ### 🧠 Reflextion {#reflexion}
