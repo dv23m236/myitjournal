@@ -20,7 +20,7 @@ Am Donnerstag half ich am Nachmittag kurz Simon bei einem Problem, das er bereit
 * **Simons Laptop:** Kabellose Synchronisation mit anderen Geräten 
 
 #### Benötigte Hilfestellungen
-* **Problem nicht behoben** Wir konnten das Problem nicht beheben, da wir kein passendes Gerät gefunden haben, welches die kabellose Synchronisation unterstützt.
+* **Problem nicht behoben:** Wir konnten das Problem nicht beheben, da wir kein passendes Gerät gefunden haben, welches die kabellose Synchronisation unterstützt.
 
 ---
 
